@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Belajar Javascript - NIOMIC</title>
+  </head>
+  <body>
+    <input type="text" value="Nama Depan"><br>
+    <input type="text" value="Nama Belakang"><br>
+    <input type="text" value="Hobi"><br>
+
+    <button type="button" name="button" onclick="panggilDOM()">Jalan</button>
+    <script>
+      function panggilDOM(){
+        console.log(document.getElementsByTagName("input"))
+      }
+      panggilDOM()
+    </script>
+  </body>
+</html>
