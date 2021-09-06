@@ -1,1 +1,1 @@
-# Tugas_34_Javscript
+# Tugas_34_Javascript
